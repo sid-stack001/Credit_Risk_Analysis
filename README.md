@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 
-This project predicts credit risk using machine learning models (RandomForest) and neural networks (PyTorch). The goal is to classify whether a borrower is likely to default based on financial and personal data. The project also includes data visualization through Jupyter Notebooks and a Streamlit app for interactive analysis.
+This project uses machine learning models and neural networks to predict credit risk. The goal is to classify whether a borrower is likely to default based on financial and personal data. The project also includes data visualization through Jupyter Notebooks and a Streamlit app for interactive analysis.
 
 ## Features
 
@@ -47,39 +47,10 @@ Credit-Risk-Scoring/
 └── README.md
 ```
 
-## How to Run the Project
-
-1. Install the dependencies:
+Install the dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-2. Add your dataset in `data/sample_data.csv`.
-
-3. Run the training script:
-
-   ```bash
-   python train.py
-   ```
-
-4. Explore interactive plots using Streamlit:
-
-   ```bash
-   streamlit run streamlit_app/credit_risk_dashboard.py
-   ```
-
-5. Open the Jupyter notebook for visualizations:
-   ```bash
-   jupyter notebook notebooks/credit_risk_visualization.ipynb
-   ```
-
-## Requirements
-
-- scikit-learn
-- pandas
-- torch
-- matplotlib
-- seaborn
-- streamlit
-- jupyter
+Add your dataset in `data/sample_data.csv`.(Create data folder if it doesn't exist)
